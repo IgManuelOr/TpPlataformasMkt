@@ -1,0 +1,115 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/*clases correspondientes al header*/
+
+/*Logo del header*/
+.headerImg {
+    max-width: 14.5vh;
+    display: inline-block;
+    margin-top: 1.5%;
+    float: left;
+    margin-right: 1%;
+}
+
+/*Contenedor del Header*/
+.headerContainer {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/*Clases correspondientes a la introduccion del grupo*/
+.GroupContainer {
+    position: absolute;
+    padding-top: 15%;
+    width: 100vw;
+    height: 95vh;
+    background-size: cover !important;
+    background: url(images/Bg.png);
+}
+
+.GroupContainer-nosotros {
+    position: absolute;
+    width: 100vw;
+    height: 65vh;
+    background-color: #222;
+    background-size: cover !important;
+}
+
+.body-content {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.center-piece-intro {
+    padding: 10px;
+    position: relative;
+    /* margin-bottom: 15%; */
+    /* margin-left: 18.5%; */
+    /* margin-right: auto; */
+    /* display: block; */
+    /* bottom: 115px; */
+    text-align: center;
+    width: 100vw;
+}
+
+.center-piece-intro-nosotros {
+    padding: 10px;
+    position: relative;
+    /* margin-bottom: 15%; */
+    /* margin-left: 18.5%; */
+    /* margin-right: auto; */
+    /* display: block; */
+    /* bottom: 115px; */
+    text-align: left;
+    width: 100vw;
+}
+
+.middle-text {
+    font-family: Gotham;
+    font-size: 12.5vh;
+    color: #1ed760;
+}
+
+.middle-text-nosotros {
+    font-family: Gotham;
+    font-size: 7.5vh;
+    margin-top: 1vh;
+    color: #ffffff;
+}
+
+.smaller-intro-text {
+    font-family: Gotham;
+    font-size: 7vh;
+    color: #1ed760;
+}
+
+.smaller-intro-text-nosotros {
+    font-family: Gotham;
+    font-size: 7vh;
+    color: #ffffff;
+}
