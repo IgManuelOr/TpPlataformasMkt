@@ -13,6 +13,11 @@ namespace TpPlataformasWeb.Controllers
             return View();
         }
 
+        public ActionResult ModeloDeNegocios()
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";

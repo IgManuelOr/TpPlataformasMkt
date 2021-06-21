@@ -11,7 +11,10 @@
     <div class="navbar navbar-inverse navbar-fixed-top" style="height: 7.5%;">
         <div class="container headerContainer">
             <div class="navbar-header">
-                <img src="~/Content/images/Logo 2.png" class="headerImg" alt="Tp Grupo 6" />
+                <img id="logo" src="~/Content/images/Logo 2.png" class="headerImg" alt="Tp Grupo 6" />
+            </div>
+            <div class="navbar-header-right">
+                <a href="@Url.Action("ModeloDeNegocios", "Home")" class="btn-navbar">Nuestro Modelo</a>
             </div>
         </div>
     </div>
@@ -28,3 +31,17 @@
     @RenderSection("scripts", required: false)
 </body>
 </html>
+
+<script type="text/javascript">
+    $('#logo').click(function (e) {
+        $.ajax({
+            url: '/Home/Index',
+            type: 'post'
+        })
+    }); 
+
+    $('#Propuesta').click(function (e) {
+        var win = window.open('/Content/images/Canvas.png', '_blank');
+        win.focus;
+    })
+</script>

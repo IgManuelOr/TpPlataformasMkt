@@ -34,10 +34,35 @@ textarea {
     margin-right: 1%;
 }
 
+.headerImg:hover {
+    cursor: pointer;
+}
+
 /*Contenedor del Header*/
 .headerContainer {
     margin-left: 15%;
     margin-right: 15%;
+}
+
+/*Botones a la derecha en el header*/
+.navbar-header-right{
+    font-family: Gotham;
+    font-size: 2vh;
+    margin-top: 2.3vh;
+    color: #ffffff;
+    float: right;
+}
+
+/*Botones a la derecha (individuales) en el header*/
+.btn-navbar {
+    color: white;
+    text-decoration: none !important;
+}
+
+
+/*Botones a la derecha (individuales) en el header | Cambio del color cuando pasás el mouse*/
+.btn-navbar:hover {
+    color: #1ed760;
 }
 
 /*Clases correspondientes a la introduccion del grupo*/
@@ -112,4 +137,176 @@ textarea {
     font-family: Gotham;
     font-size: 7vh;
     color: #ffffff;
+}
+
+/*Clases correspondientes a nuestro modelo*/
+.GroupContainer-Modelo {
+    position: absolute;
+    padding-top: 15%;
+    width: 100vw;
+    height: 95vh;
+    background-size: cover !important;
+    background: url(images/Bg2.png);
+}
+
+.GroupContainer-Modelo-Upper {
+    position: absolute;
+    width: 100vw;
+    height: 53vh;
+    background-color: rgb(80, 55, 80);
+    background-size: cover !important;
+}
+
+.center-piece-modelo-upper {
+    padding: 10px;
+    position: relative;
+    color: rgb(180, 155, 200);
+    margin-top: 3vh;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: left;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subtitle-modelo {
+    margin-top: 5vh;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.image-center-piece-modelo-upper {
+    display: inline-block;
+    width: fit-content;
+}
+
+.img-center {
+    vertical-align: bottom;
+    margin-left: 11vw;
+}
+
+.second-textbox-btn-modelo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    text-align: left;
+}
+
+.btn-propuesta {
+    background-color: rgb(180, 155, 200);
+    width: 15vw;
+    height: 4vh;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: 600;
+    padding-top: 8px;
+    font-size: 16px;
+}
+
+.btn-propuesta:hover {
+    cursor: pointer;
+    background-color: rgb(124, 112, 163);
+}
+
+.GroupContainer-freemium {
+    position: absolute;
+    width: 100vw;
+    height: 53vh;
+    /*background: url(images/Bg2.png);*/
+    background-color: #ffffff;
+    background-size: cover !important;
+}
+
+.Center-Piece-Modelo {
+    padding: 10px;
+    padding-top: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60vw;
+}
+
+.middle-text-Modelo {
+    font-family: Gotham;
+    font-size: 4vh;
+    margin-top: 1vh;
+    color: #000000;
+}
+
+.middle-text-img-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.middle-text-Subtitle {
+    font-family: Gotham;
+    font-size: 2vh;
+    margin-top: 1vh;
+    color: #000000;
+}
+
+.middle-text-Subtitle-2 {
+    font-family: Gotham;
+    font-size: 2vh;
+    margin-top: 1vh;
+    color: #000000;
+    text-align:left;
+}
+
+.GroupContainer-ads {
+    position: absolute;
+    width: 100vw;
+    height: 75vh;
+    /*background: url(images/Bg2.png);*/
+    background-color: #000000;
+    background-size: cover !important;
+}
+
+.middle-text-Ads {
+    font-family: Gotham;
+    font-size: 2vh;
+    margin-top: 5vh;
+    color: #000000;
+    margin-left: auto;
+    text-align: left;
+    margin-right: auto;
+    width: 59vw;
+}
+
+.divider-ads {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    display: inline-flex;
+}
+
+.Subscription {
+    padding: 5px;
+    height: 50vh;
+    width: 15vw;
+    border-radius: 10px;
+    color: #000000;
+    background-color: #fff;
+    margin-left: 8vw;
+    box-shadow: 0px 2px 2px 3px grey;
+    text-align: center;
+    font-weight:400;
+}
+
+.btn-subscription {
+    background-color: rgb(180, 155, 200);
+    width: 13vw;
+    height: 4vh;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: 600;
+    padding-top: 8px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
 }
