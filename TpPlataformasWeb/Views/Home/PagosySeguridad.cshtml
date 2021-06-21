@@ -1,0 +1,87 @@
+﻿@{
+    ViewBag.Title = "Seguridad y métodos de pago";
+}
+
+<div style="overflow-y:scroll">
+    <div>
+        <div class="GroupContainer-PaymentMethods">
+            <div class="Center-Piece-Modelo">
+                <div class="middle-text-Modelo">Métodos de pago regionales, a tu manera, y a tu medida.</div>
+                <div class="middle-text-Subtitle">Actualmente, ofrecemos los siguientes métodos de pago para tu país:</div>
+            </div>
+            <div class="Center-Piece-Modelo">
+                <div class="container-paymentimgs">
+                    <div class="box-image-paymentimgs">
+                        <img id="cards" src="~/Content/images/Tarjetas.png" alt="Tarjetas" />
+                        <img id="banderas" class="banderas" src="~/Content/images/Banderas.png" alt="Banderas" />
+                    </div>
+                    <div class="box-image-paymentimgs">
+                        <img id="rapipago" style="width: 250px;" src="~/Content/images/Logo Rapipago.png" alt="Rapipago" />
+                    </div>
+                    <div class="box-image-paymentimgs">
+                        <img id="PagoFacil" style="margin-top: 4%; width: 80%;" src="~/Content/images/logo pagofacil.png" alt="PagoFacil" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="height:47vh" id="dividerRapipago"></div>
+        <div id="divRapipago" class="GroupContainer-PaymentMethods-Rapipago">
+            <div class="center-piece-modelo-upper">
+                <div style="display:inline-block">
+                    <div style="width:50vw">El pago por Rapipago se realiza imprimiendo un boleto de pago.</div>
+                    <div class="subtitle-modelo">Esta boleta se puede pagar en cualquier kiosco de rapipago, y puede tardar hasta 24 horas para procesar el pago.</div>
+                </div>
+            </div>
+            <div class="second-textbox-btn-modelo">
+                <div class="btn-propuesta" style="margin-top: 20px;" id="btn-Rapipago">Generar boleto</div>
+            </div>
+        </div>
+        <div style="height:47vh" id="dividerPagoFacil"></div>
+        <div id="divPagoFacil" class="GroupContainer-PaymentMethods-Rapipago">
+            <div class="center-piece-modelo-upper">
+                <div style="display:inline-block">
+                    <div style="width:50vw">El pago por PagoFacil se realiza imprimiendo un boleto de pago.</div>
+                    <div class="subtitle-modelo">Esta boleta se puede pagar en cualquier kiosco de PagoFacil, y puede tardar hasta 24 horas para procesar el pago.</div>
+                </div>
+            </div>
+            <div class="second-textbox-btn-modelo">
+                <div class="btn-propuesta" style="margin-top: 20px;" id="btn-PagoFacil">Generar boleto</div>
+            </div>
+        </div>
+        <div style="height:53vh"></div>
+        <div>
+            <div class="GroupContainer-Security">
+                <div class="middle-text-security">
+                    <div style="color:#ffffff" class="middle-text-Subtitle-2">Nuestras medidas de seguridad para tu usuario y tu dinero.</div>
+                    <div style="color:#ffffff; margin-top:20px;" class="middle-text-Modelo">Cifrado HTTPS.</div>
+                    <div class="divider-ads">
+                        <div style="color:#ffffff; width: 25vw;" class="middle-text-Subtitle-2">
+                            <span>Spotify usa cifrado avanzado HTTPS en todas sus consultas al sitio web.</span>
+                        </div>
+                    </div>
+                    <div style="color:#ffffff; margin-top:20px;" class="middle-text-Modelo">Bases de datos baseadas en tecnología SQL.</div>
+                    <div class="divider-ads">
+                        <div style="color:#ffffff; width: 25vw;" class="middle-text-Subtitle-2">
+                            <span>Bases de datos modernas con medidas de seguridad de punta.</span>
+                        </div>
+                    </div>
+                    <div style="color:#ffffff; margin-top:20px;" class="middle-text-Modelo">Generación de GUIDs cifrados.</div>
+                    <div class="divider-ads">
+                        <div style="color:#ffffff; width: 25vw;" class="middle-text-Subtitle-2">
+                            <span>Cada usuario tiene un ID único y secreto de 40 caractéres, asi nadie te reconoce además del sistema. Esta codificación se realiza en Base64.</span>
+                        </div>
+                    </div>
+                    <div style="color:#ffffff; margin-top:20px;" class="middle-text-Modelo">Pagos por sistemas avanzados en BASE24.</div>
+                    <div class="divider-ads">
+                        <div style="color:#ffffff; width: 25vw;" class="middle-text-Subtitle-2">
+                            <span>Sistemas de transferencias cifradas, asi vos no te preocupas en tu pago.</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img class="lock" src="~/Content/images/green-lock.png" alt="Cifrado" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

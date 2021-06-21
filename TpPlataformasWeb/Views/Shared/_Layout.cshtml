@@ -14,7 +14,13 @@
                 <img id="logo" src="~/Content/images/Logo 2.png" class="headerImg" alt="Tp Grupo 6" />
             </div>
             <div class="navbar-header-right">
+                <a href="@Url.Action("PagosySeguridad", "Home")" class="btn-navbar">Seguridad y pagos</a>
+            </div>
+            <div class="navbar-header-right">
                 <a href="@Url.Action("ModeloDeNegocios", "Home")" class="btn-navbar">Nuestro Modelo</a>
+            </div>
+            <div class="navbar-header-right">
+                <a href="@Url.Action("ModeloDeNegocios", "Home")" class="btn-navbar">KPIs</a>
             </div>
         </div>
     </div>
@@ -33,6 +39,12 @@
 </html>
 
 <script type="text/javascript">
+    $('#banderas').hide();
+    $('#dividerRapipago').hide();
+    $('#divRapipago').hide();
+    $('#dividerPagoFacil').hide();
+    $('#divPagoFacil').hide();
+
     $('#logo').click(function (e) {
         $.ajax({
             url: '/Home/Index',
@@ -43,5 +55,37 @@
     $('#Propuesta').click(function (e) {
         var win = window.open('/Content/images/Canvas.png', '_blank');
         win.focus;
+    })
+
+    $('#cards').click(function (e) {
+        if ($('#banderas').is(":hidden")) {
+            $('#banderas').show(200);
+        } else {
+            $('#banderas').hide(200);
+        }
+    })
+
+    $('#rapipago').click(function (e) {
+        if ($('#dividerRapipago').is(":hidden")) {
+            $('#dividerPagoFacil').hide();
+            $('#divPagoFacil').hide();
+            $('#dividerRapipago').show();
+            $('#divRapipago').show()
+        } else {
+            $('#dividerRapipago').hide();
+            $('#divRapipago').hide();
+        }
+    })
+
+    $('#PagoFacil').click(function (e) {
+        if ($('#dividerPagoFacil').is(":hidden")) {
+            $('#dividerRapipago').hide();
+            $('#divRapipago').hide();
+            $('#dividerPagoFacil').show();
+            $('#divPagoFacil').show()
+        } else {
+            $('#dividerPagoFacil').hide();
+            $('#divPagoFacil').hide();
+        }
     })
 </script>
