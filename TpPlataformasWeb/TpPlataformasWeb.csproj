@@ -135,8 +135,17 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\images\Bg.png" />
     <Content Include="Content\images\Bg2.png" />
+    <Content Include="Content\images\Bg3.png" />
     <Content Include="Content\images\Canvas.png" />
     <Content Include="Content\images\green-lock.png" />
+    <Content Include="Content\images\kpi-7.png" />
+    <Content Include="Content\images\kpi1.png" />
+    <Content Include="Content\images\kpi2.png" />
+    <Content Include="Content\images\kpi3.png" />
+    <Content Include="Content\images\kpi4.png" />
+    <Content Include="Content\images\kpi5.png" />
+    <Content Include="Content\images\kpi6.png" />
+    <Content Include="Content\images\Loading.gif" />
     <Content Include="Content\images\Logo 2.png" />
     <Content Include="Content\images\logo pagofacil.png" />
     <Content Include="Content\images\logo paypal.png" />
@@ -198,6 +207,8 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\ModeloDeNegocios.cshtml" />
     <Content Include="Views\Home\PagosySeguridad.cshtml" />
+    <Content Include="Views\Index.cshtml" />
+    <Content Include="Views\Home\KPIs.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

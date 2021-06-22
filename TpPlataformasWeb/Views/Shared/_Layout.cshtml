@@ -14,14 +14,15 @@
                 <img id="logo" src="~/Content/images/Logo 2.png" class="headerImg" alt="Tp Grupo 6" />
             </div>
             <div class="navbar-header-right">
+                <a href="@Url.Action("KPIs", "Home")" class="btn-navbar">KPIs</a>
+            </div>
+            <div class="navbar-header-right">
                 <a href="@Url.Action("PagosySeguridad", "Home")" class="btn-navbar">Seguridad y pagos</a>
             </div>
             <div class="navbar-header-right">
                 <a href="@Url.Action("ModeloDeNegocios", "Home")" class="btn-navbar">Nuestro Modelo</a>
             </div>
-            <div class="navbar-header-right">
-                <a href="@Url.Action("ModeloDeNegocios", "Home")" class="btn-navbar">KPIs</a>
-            </div>
+
         </div>
     </div>
     <div class="container body-content">
@@ -44,6 +45,9 @@
     $('#divRapipago').hide();
     $('#dividerPagoFacil').hide();
     $('#divPagoFacil').hide();
+    $('#jokeDivider1').hide();
+    $('#jokeDiv2').hide();
+    $('#jokeDiv').hide();
 
     $('#logo').click(function (e) {
         $.ajax({
@@ -86,6 +90,20 @@
         } else {
             $('#dividerPagoFacil').hide();
             $('#divPagoFacil').hide();
+        }
+    })
+
+    $('#Analytics').click(function (e) {
+        if ($('#jokeDivider1').is(":hidden")) {
+            $('#jokeDivider1').slideUp(300).delay(800).fadeIn(400);
+            $('#jokeDiv').slideUp(300).delay(800).fadeIn(400);
+            $("html, body").animate({ scrollTop: $(document).height() }, 1000);
+            setTimeout(
+                function () {
+                    $('#jokeDiv').hide().fadeOut(400);
+                    $('#jokeDiv2').show().fadeIn(200);
+                }, 5000)
+
         }
     })
 </script>

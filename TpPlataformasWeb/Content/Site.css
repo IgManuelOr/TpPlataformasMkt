@@ -385,3 +385,70 @@ textarea {
     margin-right: auto;
     width: 59vw;
 }
+
+/*KPIs*/
+.GroupContainer-Modelo-Upper-KPI {
+    position: absolute;
+    width: 100vw;
+    height: 48vh;
+    background: url(images/Bg3.png);
+    background-size: cover !important;
+}
+
+.Center-Piece-Modelo-KPI {
+    padding: 10px;
+    padding-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60vw;
+}
+
+.middle-text-Modelo-KPI {
+    font-family: Gotham;
+    font-size: 6vh;
+    margin-top: 1vh;
+    color: #fff;
+}
+
+.middle-text-Subtitle-KPI {
+    font-family: Gotham;
+    font-size: 2vh;
+    margin-top: 1vh;
+    color: #fff;
+}
+
+.GroupContainer-Modelo-Lower-KPI {
+    position: absolute;
+    width: 100vw;
+    height: 75vh;
+    /*background: url(images/Bg2.png);*/
+    background-color: #ffffff;
+    background-size: cover !important;
+}
+
+.middle-text-img-container-KPI {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.GroupContainer-KPI-Joke {
+    position: absolute;
+    width: 100vw;
+    height: 35vh;
+    /*background: url(images/Bg2.png);*/
+    background-color: #000000;
+    background-size: cover !important;
+}
+
+.GroupContainer-KPI-Joke-2 {
+    position: absolute;
+    width: 100vw;
+    height: 15vh;
+    /*background: url(images/Bg2.png);*/
+    background-color: #000000;
+    background-size: cover !important;
+}
