@@ -14,6 +14,9 @@
                 <img id="logo" src="~/Content/images/Logo 2.png" class="headerImg" alt="Tp Grupo 6" />
             </div>
             <div class="navbar-header-right">
+                <a href="@Url.Action("Community", "Home")" class="btn-navbar">Community</a>
+            </div>
+            <div class="navbar-header-right">
                 <a href="@Url.Action("KPIs", "Home")" class="btn-navbar">KPIs</a>
             </div>
             <div class="navbar-header-right">
@@ -57,9 +60,25 @@
     }); 
 
     $('#Propuesta').click(function (e) {
-        var win = window.open('/Content/images/Canvas.png', '_blank');
+        var win = window.open('https://miro.com/app/board/o9J_lMJQoCo=/', '_blank');
         win.focus;
     })
+
+    $('#instagram').click(function (e) {
+        var win = window.open('https://www.instagram.com/spotify/', '_blank');
+        win.focus;
+    })
+
+    $('#twitter').click(function (e) {
+        var win = window.open('https://twitter.com/spotify', '_blank');
+        win.focus;
+    })
+
+    $('#facebook').click(function (e) {
+        var win = window.open('https://www.facebook.com/Spotify', '_blank');
+        win.focus;
+    })
+
 
     $('#cards').click(function (e) {
         if ($('#banderas').is(":hidden")) {

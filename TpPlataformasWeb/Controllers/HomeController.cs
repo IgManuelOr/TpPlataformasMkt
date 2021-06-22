@@ -26,6 +26,10 @@ namespace TpPlataformasWeb.Controllers
         {
             return View();
         }
+        public ActionResult Community()
+        {
+            return View();
+        }
 
         public ActionResult About()
         {

@@ -452,3 +452,66 @@ textarea {
     background-color: #000000;
     background-size: cover !important;
 }
+
+/*Estilos para Community*/
+.GroupContainer-Modelo-Upper-Joke-Community {
+    position: absolute;
+    width: 100vw;
+    height: 15vh;
+    background-color: #e61e32;
+    background-size: cover !important;
+    text-align: center;
+    float: left;
+}
+
+.middle-text-Modelo-Community-Joke {
+    font-family: Gotham;
+    font-size: 1.5vh;
+    margin-top: 5vh;
+    width: 60vw;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.GroupContainer-Modelo-Upper-Community {
+    position: absolute;
+    width: 100vw;
+    height: 48vh;
+    background: url(images/Bg2.png);
+    background-size: cover !important;
+}
+
+.GroupContainer-Modelo-Lower-Community {
+    position: absolute;
+    width: 100vw;
+    height: 130vh;
+    /*background: url(images/Bg2.png);*/
+    background-color: #ffffff;
+    background-size: cover !important;
+}
+
+.extra-container-social-media {
+    margin-top: 35px;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-media {
+    width: 40px;
+    margin-right: 15px;
+    color: #fff;
+}
+
+.social-media:hover {
+    cursor: pointer;
+    color: #1ed760;
+}
+
+.footer-socials {
+    color: #fff;
+    font-size: 14px;
+    display: inline-flex;
+    vertical-align: top;
+}

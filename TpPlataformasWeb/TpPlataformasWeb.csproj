@@ -127,6 +127,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\images\Acción1.png" />
+    <Content Include="Content\images\Acción2.png" />
+    <Content Include="Content\images\Acción3.png" />
+    <Content Include="Content\images\adobe logo.png" />
     <Content Include="Content\images\Banderas.png" />
     <Content Include="Content\images\beneficios.png" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -137,6 +141,7 @@
     <Content Include="Content\images\Bg2.png" />
     <Content Include="Content\images\Bg3.png" />
     <Content Include="Content\images\Canvas.png" />
+    <Content Include="Content\images\Facebook-ico.png" />
     <Content Include="Content\images\green-lock.png" />
     <Content Include="Content\images\kpi-7.png" />
     <Content Include="Content\images\kpi1.png" />
@@ -150,9 +155,14 @@
     <Content Include="Content\images\logo pagofacil.png" />
     <Content Include="Content\images\logo paypal.png" />
     <Content Include="Content\images\Logo Rapipago.png" />
+    <Content Include="Content\images\logo-instagram.png" />
+    <Content Include="Content\images\Logo-twitter.png" />
     <Content Include="Content\images\LogoTp.png" />
     <Content Include="Content\images\Modelo-img1.png" />
     <Content Include="Content\images\notabenefit.png" />
+    <Content Include="Content\images\Objetivo 3.png" />
+    <Content Include="Content\images\Objetivo1.png" />
+    <Content Include="Content\images\Objetivo2.png" />
     <Content Include="Content\images\signature.png" />
     <Content Include="Content\images\SignatureNicolas.png" />
     <Content Include="Content\images\Tarjetas.png" />
@@ -209,6 +219,7 @@
     <Content Include="Views\Home\PagosySeguridad.cshtml" />
     <Content Include="Views\Index.cshtml" />
     <Content Include="Views\Home\KPIs.cshtml" />
+    <Content Include="Views\Home\Community.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
