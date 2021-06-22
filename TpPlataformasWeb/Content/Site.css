@@ -515,3 +515,15 @@ textarea {
     display: inline-flex;
     vertical-align: top;
 }
+
+/*Exclusivos de plataformas*/
+
+.img-plataformas {
+    max-width: 170px;
+    margin-right: 15px;
+}
+
+.img-plataformas:hover {
+    cursor:pointer;
+    color: rgb(124, 112, 163);
+}

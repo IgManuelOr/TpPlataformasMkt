@@ -14,6 +14,9 @@
                 <img id="logo" src="~/Content/images/Logo 2.png" class="headerImg" alt="Tp Grupo 6" />
             </div>
             <div class="navbar-header-right">
+                <a href="@Url.Action("Plataformas", "Home")" class="btn-navbar">Plataformas</a>
+            </div>
+            <div class="navbar-header-right">
                 <a href="@Url.Action("Community", "Home")" class="btn-navbar">Community</a>
             </div>
             <div class="navbar-header-right">
@@ -31,9 +34,6 @@
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
     </div>
 
     @Scripts.Render("~/bundles/jquery")
@@ -79,6 +79,30 @@
         win.focus;
     })
 
+    $('#appstore').click(function (e) {
+        var win = window.open('https://apps.apple.com/ar/app/spotify-m%C3%BAsica-y-podcasts/id324684580', '_blank');
+        win.focus;
+    })
+
+    $('#googleplay').click(function (e) {
+        var win = window.open('https://play.google.com/store/apps/details?id=com.spotify.music&hl=es_AR&gl=US', '_blank');
+            win.focus;
+    })
+
+    $('#playstation').click(function (e) {
+        var win = window.open('https://manuals.playstation.net/document/es/ps4/music/music.html', '_blank');
+        win.focus;
+    })
+
+    $('#windows').click(function (e) {
+        var win = window.open('https://www.microsoft.com/es-ar/p/spotify-music/9ncbcszsjrsb#activetab=pivot:overviewtab', '_blank');
+        win.focus;
+    })
+
+    $('#docs').click(function (e) {
+        var win = window.open('https://support.spotify.com/us/article/search/', '_blank');
+        win.focus;
+    })
 
     $('#cards').click(function (e) {
         if ($('#banderas').is(":hidden")) {
