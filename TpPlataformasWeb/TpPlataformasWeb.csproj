@@ -141,6 +141,7 @@
     <Content Include="Content\images\Bg.png" />
     <Content Include="Content\images\Bg2.png" />
     <Content Include="Content\images\Bg3.png" />
+    <Content Include="Content\images\Bg4.png" />
     <Content Include="Content\images\BuyerPersona.png" />
     <Content Include="Content\images\Canvas.png" />
     <Content Include="Content\images\Competicion.png" />
@@ -231,6 +232,7 @@
     <Content Include="Views\Home\KPIs.cshtml" />
     <Content Include="Views\Home\Community.cshtml" />
     <Content Include="Views\Home\Plataformas.cshtml" />
+    <Content Include="Views\Home\Privacidad.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

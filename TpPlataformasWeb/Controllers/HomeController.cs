@@ -34,6 +34,10 @@ namespace TpPlataformasWeb.Controllers
         {
             return View();
         }
+        public ActionResult Privacidad()
+        {
+            return View();
+        }
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";

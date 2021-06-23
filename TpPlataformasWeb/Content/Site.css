@@ -527,3 +527,65 @@ textarea {
     cursor:pointer;
     color: rgb(124, 112, 163);
 }
+
+/*Exclusivos de privacidad*/
+.Center-Piece-Modelo-privacidad {
+    padding: 10px;
+    padding-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60vw;
+}
+
+.GroupContainer-Modelo-Upper-privacidad {
+    position: absolute;
+    width: 100vw;
+    height: 50vh;
+    background: url(images/Bg4.png);
+    background-size: cover !important;
+    background-position: center;
+}
+
+.GroupContainer-Privacidad {
+    position: absolute;
+    width: 100vw;
+    height: 155vh;
+    /*background: url(images/Bg2.png);*/
+    background-color: #ffffff;
+    background-size: cover !important;
+}
+
+.catalogue {
+    height: 32vh;
+    width: 15vw;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: left;
+}
+
+.catalogue-title {
+    float: left;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: -20px;
+}
+
+.catalogue-title-2 {
+    float: left;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: -5px;
+    margin-right: 10vw;
+}
+
+.catalogue-title-3 {
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: -20px;
+    text-align: left;
+}
