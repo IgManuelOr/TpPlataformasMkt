@@ -56,10 +56,7 @@
     $('#jokeDiv').hide();
 
     $('#logo').click(function (e) {
-        $.ajax({
-            url: '/Home/Index',
-            type: 'post'
-        })
+        var win = window.open('/Home/Index', '_self');
     }); 
 
     $('#Propuesta').click(function (e) {
